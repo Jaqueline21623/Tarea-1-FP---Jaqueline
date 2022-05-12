@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * EjercicioR
  */
@@ -23,10 +25,28 @@ public class EjercicioR {
             System.out.println(numInit);
         }
     }
-        
+    public static void nombrevertical() {
+        Scanner lt=new Scanner(System.in);
+        System.out.println("ingrese su nombre:");
+        String nombre=lt.next();
+        for (int i = 0; i < nombre.length(); i++) {
+            System.out.println(nombre.charAt(i));
+        }
+    }
+    public static void nombrebiseversa() {
+        Scanner lt=new Scanner(System.in);
+        System.out.println("ingrese su nombre:");
+        String nombre=lt.next();
+        for (int i = nombre.length()-1; i >= 0; i--) {
+            System.out.println(nombre.charAt(i));
+        }
+    }
     public static void main(String[] args) {
-        System.out.println("imprimi While:"); imprimirWhileN1_10();
+        /*System.out.println("imprimi While:"); imprimirWhileN1_10();
         System.out.println("imprimi Do While:"); imprimirDowhileN1_20();
-        System.out.println("imprime for:"); imprimirForN1_20();
+        System.out.println("imprime for:"); imprimirForN1_20();*/
+
+        nombrevertical();
+        nombrebiseversa();
     }
 }
