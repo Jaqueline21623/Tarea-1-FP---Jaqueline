@@ -106,12 +106,20 @@ def ejercicio4 ():
     #datos de salida
     print(f"el tipo de vacuna es: {mensaje}")
 
-        
-
-
+#examenJHC
+#Definir variables
+numero = float
+#Datos de entrada
+numero = float ( input ( "Ingrese el numero del ejercicio(1-4): " ))
+#proceso
+if numero==1:
+    ejercicio1()
+elif numero==2:
+    ejercicio2()
+elif numero==3:
+    ejercicio3()
+else :
+    ejercicio4()
     
 
 
-
-
-ejercicio4()
