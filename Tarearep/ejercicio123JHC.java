@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ejercicio1 {
+public class ejercicio {
     public static void imprimeif_1(String[] args) {
         Scanner obtener = new Scanner(System.in);
         System.out.println("ingrese un numero: ");
