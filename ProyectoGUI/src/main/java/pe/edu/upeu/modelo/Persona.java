@@ -1,4 +1,4 @@
-package modelo;
+package pe.edu.upeu.modelo;
 
 public class Persona {
     String codigo;

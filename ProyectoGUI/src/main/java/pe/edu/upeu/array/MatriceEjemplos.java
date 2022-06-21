@@ -1,4 +1,4 @@
-package nuevo;
+package pe.edu.upeu.array;
 
 public class MatriceEjemplos {
     public void matricesFBasicos() {

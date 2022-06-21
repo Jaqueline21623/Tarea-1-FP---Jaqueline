@@ -1,8 +1,8 @@
-package nuevo;
+package pe.edu.upeu.array;
 
 import java.util.Scanner;
 
-import modelo.Persona;
+import pe.edu.upeu.modelo.Persona;
 
 /**
  * VectoresEjemplo
