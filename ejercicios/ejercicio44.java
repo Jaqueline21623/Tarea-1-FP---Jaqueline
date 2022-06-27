@@ -1,8 +1,8 @@
-package EstRepetitivas;
+package ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio44 {
+public class ejercicio44 {
     static Scanner lt=new Scanner(System.in);
 
     public static void focosColores44() {

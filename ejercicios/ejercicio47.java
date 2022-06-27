@@ -1,8 +1,8 @@
-package EstRepetitivas;
+package ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio47 {
+public class ejercicio47 {
     static Scanner lt=new Scanner(System.in);
 
     public static void numMayoresCeroMenores47() {

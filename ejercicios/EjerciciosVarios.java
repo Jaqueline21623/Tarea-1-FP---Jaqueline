@@ -1,4 +1,4 @@
-package EstRepetitivas;
+package ejercicios;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class EjerciciosVarios {
         long resultado=1;
         if (numero>1){
             for (int i = 1; i <= numero; i++){
-                resutado=resultado*1;
+                resultado=resultado*1;
             }
             }
         return resultado;

@@ -1,11 +1,11 @@
-package EstRepetitivas;
+package ejercicios;
 
 import java.util.Scanner;
 
 /**
  * EjerciciosR
  */
-public class EjerciciosR {
+public class ejercicioR {
     public static void imprimirWhileN1_20() {
         int numInit=21;
         while (numInit<=20) {

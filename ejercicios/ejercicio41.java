@@ -1,8 +1,8 @@
-package EstRepetitivas;
+package ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio41 {
+public class ejercicio41 {
   
     static Scanner lt=new Scanner(System.in);
 
