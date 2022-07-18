@@ -1,0 +1,9 @@
+M1	Cuello V	C1
+M2	Cuello Alto	C1
+M3	Cuello Redondo	C1
+M4	Con Sierre	C2
+M5	Con Boton 	C2
+M6	Cardigan	C2
+M7	Bufanda Ganchillo	C3
+M8	Cuello Bufanda	C3
+M9	Bufanda Infinita	C3
