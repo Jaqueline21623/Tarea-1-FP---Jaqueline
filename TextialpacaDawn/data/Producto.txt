@@ -6,7 +6,7 @@ P5	Abrigos T-L Color Azul 	C2	M1	Unidad	3	45.0	8.0	7.0	3.0
 P6	Abrigos T-M Color Negro	C2	M3	Unidad	3	45.0	8.0	7.0	3.0
 P7	Abrigos T-S Color Negro	C2	M3	Unidad	2	45.0	8.0	7.0	3.0
 P8	Chompas T-L Color Blanco	C1	M1	Unidad	2	30.0	8.0	7.0	3.0
-P9	Chalinas Color Griz 	C3	M3	Unidad	1	15.0	6.0	5.0	3.0
+P9	Chalinas Color Griz 	C3	M3	Unidad	1	15.0	6.0	4.0	3.0
 P10	Chalinas Color Verde Jade	C3	M2	Unidad	1	15.0	6.0	5.0	3.0
 P11	Abrigos T-M Color Lila	C2	M3	Unidad	3	45.0	8.0	7.0	3.0
 P12	Chompas T-M Color Azul	C1	M2	Unidad	2	30.0	8.0	7.0	3.0

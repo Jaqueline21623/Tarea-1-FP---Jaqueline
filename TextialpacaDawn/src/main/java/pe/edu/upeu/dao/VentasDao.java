@@ -215,7 +215,7 @@ public class VentasDao extends AppCrud{
                    vTo.setDni(dataV[i][1].toString());
                    vTo.setFecha(dataV[i][2].toString());
 
-                   vTo.setDescuento(Double.parseDouble(String.valueOf(dataV[i][3].toString())));
+                   vTo.setDescuentos(Double.parseDouble(String.valueOf(dataV[i][3].toString())));
                    vTo.setSubprecio(Double.parseDouble(String.valueOf(dataV[i][4])));
                    vTo.setIgv(Double.parseDouble(String.valueOf(dataV[i][5])));
                    vTo.setPrecioTotal(Double.parseDouble(String.valueOf(dataV[i][6])));
@@ -238,7 +238,7 @@ public class VentasDao extends AppCrud{
             util.pintarLine('H', 40);
             for (VentaTO TOv : dataReal) {
                 String datax=TOv.getIdVenta()+","+TOv.getDni()+","+TOv.getFecha()+","+
-                TOv.getDescuento()+","+TOv.getSubprecio()+","+TOv.getIgv()+","+TOv.getPrecioTotal();
+                TOv.getDescuentos()+","+TOv.getSubprecio()+","+TOv.getIgv()+","+TOv.getPrecioTotal();
 
                 subtotalX+=TOv.getSubprecio(); 
                 igvX+=TOv.getIgv(); 
