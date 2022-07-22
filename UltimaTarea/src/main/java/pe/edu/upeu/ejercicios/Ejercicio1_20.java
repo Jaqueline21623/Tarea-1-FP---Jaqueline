@@ -6,18 +6,34 @@ public class Ejercicio1_20 {
 
     Scanner cs=new Scanner(System.in);
 
-    public void transformada10() {
+    public void transformada9() {
         System.out.println("Ingrese dimesion de Matriz:");
-            int dimension = cs.nextInt();
-            int valor = 0;
-            String[][] matriz = new String[dimension][dimension];
-            for (int filas = 0; filas > matriz.length; filas++) {
-                for (int columnas = 0; columnas >= columnas; columnas--) {
-                    matriz[filas][columnas] = String.valueOf(valor);
-                    valor=valor+1;
-                }
+        int dimension = cs.nextInt();
+        int valor = 0;
+        String[][] matriz = new String[dimension][dimension];
+        for (int fila = 0; fila < matriz.length; fila++) {
+            for (int columna = matriz[0].length-1- fila; columna <= matriz[0].length - 1; columna++) {
+                matriz[fila][columna] = String.valueOf(valor);
+                valor=valor+1;
             }
-            imprimirMatriz(matriz);
+        }
+        imprimirMatriz(matriz);
+    }
+
+
+    public void transformada11() {
+        String[][] matriz;
+        System.out.println("Ingrese dimesion de Matriz:");
+        int dimension = cs.nextInt();
+        int valor = 0;
+        matriz = new String[dimension][dimension];
+        for (int fila = 0; fila < matriz.length; fila++) {
+            for (int columna = matriz.length-1-fila; columna >= 0; columna--) {
+                matriz[fila][columna] = String.valueOf(valor);
+                valor=valor+1;
+            }
+        }
+        imprimirMatriz(matriz);
     }
 
     public void transformada14() {
@@ -280,8 +296,7 @@ public class Ejercicio1_20 {
     }
 
     public static void main(String[] args) {
-        //new Ejercicio1_20().transformada22();
-        new Ejercicio1_20().transformada10();
+        new Ejercicio1_20().transformada9();
     }
 
 }
